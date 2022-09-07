@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Docker Notes</title>
+  </head>
+  <body>
+    <p>Docker Course Introduction
+In this course, you will learn the
+
+Basic concepts of Containers
+
+Docker Engine
+
+Docker architecture and workflow
+
+Docker end-to-end flow with example
+
+Let us begin the course with the basic concepts of Virtualization (Virtual Machines) and Containerization (Containers) and then dive into the concepts of Docker.
+
+What is Virtualization?
+Virtualization is a creation of logical object version in place of an actual version.
+
+Few examples are virtual computer hardware platform, virtual storage, and virtual LANs.
+
+Hardware virtualization means creating virtual machine that acts like a real physical computer with an OS.
+
+For example, a virtual machine (VM) hosted on a computer with Microsoft Windows may behave like Ubuntu and Ubuntu supported software may run on the VM.
+
+Need for a Virtual Machine
+Virtual machine setup has the following benefits.
+
+Multiple operating systems can be hosted on the same machine simultaneously with complete isolation.
+
+Multiple VMs can be deployed on the same physical box. This reduces the total number of physical machines.
+
+Easy maintenance, app provisioning, and quick recovery.
+
+Problems with Virtual Machine
+A lot of wastage of resources like ram, processor, disk space due to fixed space slicing for every application deployed. Hence this is not ideal for a large scale application developed using micro services.
+
+Inconsistent computing environment across the software delivery life cycle (Prod/Dev/QA).
+
+Hardware failures like malfunctioning and power supply loss will stop all working servers since many servers run on a single physical server.
+
+What are Containers?
+Containers are multiple isolated services that are run on a single control host (underlying infrastructure) and they access a single kernel.
+
+Container based virtualization is an OS-level virtualization method for deploying and running distributed applications without launching an entire VM for each application.
+
+They isolate applications from one another.
+
+This block diagram clearly depicts the difference between VMs and Containers on how an application is deployed.
+
+Size:
+
+VMs - Resource wastage is high
+
+Containers - No wastage
+
+Start up:
+
+VMs - Starts slow
+
+Containers - Starts really quick
+
+Integration with DevOps tools:
+
+VMs - Complex (infrastructure wastage, repetitive configuration and minimal scalability)
+
+Containers - Very simple
+
+Container - Benefits
+Improved portability
+
+Better performance
+
+Optimum RAM/disk space/cloud utilization
+
+Suited for agile environment
+
+Facilitates approaches such as micro services, continuous integration, and delivery.
+
+Eliminates environment inconsistencies
+
+Benefits from Container Orchestration Tools
+Container Orchestration tools like Docker Swarm, Amazon ECS, and Azure Container Service:
+
+Facilitate auto deployment
+
+Scale application easily
+
+Quickly push application from one environment to another
+
+Enable automated rollbacks and backups
+
+Support load balancing and service healing
+
+</p>
+
+  </body>
+</html>
